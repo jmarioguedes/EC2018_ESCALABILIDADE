@@ -1,0 +1,30 @@
+program Main;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  DataModule in 'DataModule.pas' {DataModule1: TDataModule};
+
+var
+i : Integer;
+
+begin
+  DataModule1 := TDataModule1.Create(None);
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+
+    for i := 1 to 50 do
+    begin
+       DataModule1.RESTRequest1.Execute;
+       Writeln(DataModule1.RESTResponse1.JSONText);
+    end;
+
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+  DataModule1.Free;
+end.
