@@ -2,7 +2,7 @@
 
 Exemplos da palestra feita em 23/10/2018 na Embarcadero Conference 2018 - #EC2018Rio.
 
-Os slides podem ser conferidos no (SlideShare)[https://github.com/jmarioguedes/EC2018]
+Os slides podem ser conferidos no [SlideShare](https://github.com/jmarioguedes/EC2018)
 
 
 ## ÍNDICE DOS PROJETOS
